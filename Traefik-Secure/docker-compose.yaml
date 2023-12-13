@@ -29,8 +29,10 @@ services:
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.traefik.entrypoints=http" # restricts dashboard to internal entrypoint
-      - "traefik.http.routers.traefik.rule=Host(`traefik-docker.yourdomain.com`)"
+      - "traefik.http.routers.traefik.rule=Host(`traefik-docker.yourdomain.com`)" 
       - "traefik.http.middlewares.traefik-auth.basicauth.users=admin:password-hash"
+      # 1. sudo apt install apache2-utils
+      # 2. echo $(htpasswd -nb "user" "pass") | sed -e s/\\s/\\s\\s/g
       - "traefik.http.middlewares.traefik-https-redirect.redirectscheme.scheme=https"
       - "traefik.http.middlewares.sslheader.headers.customrequestheaders.X-Forwarded-Proto=https"
       - "traefik.http.routers.traefik.middlewares=traefik-https-redirect"
